@@ -18,7 +18,7 @@ import org.jpacman.framework.view.BoardView;
 
 /**
  * The main user interface for jpacman.
- * 
+ *
  * @author Arie van Deursen, TU Delft, Jan 14, 2012
  */
 public class MainUI extends JFrame implements Observer, IDisposable {
@@ -26,21 +26,22 @@ public class MainUI extends JFrame implements Observer, IDisposable {
      * Universal version ID for serialization.
      */
     static final long serialVersionUID = -59470379321937183L;
-
     /**
      * The underlying game.
      */
-	private transient Game theGame;
-
-	/**
-	 * Mapping of UI events to model actions.
-	 */
+    private transient Game theGame;
+    /**
+    * Mapping of UI events to model actions.
+    */
 	private transient PacmanInteraction pi;
 
 	/**
 	 * The main window components.
 	 */
 	private PointsPanel points;
+    /**
+     * Mijn midden finger!!
+     */
 	private BoardView boardView;
 	private ButtonPanel buttonPanel;
 	
