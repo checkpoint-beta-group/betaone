@@ -22,7 +22,6 @@ import org.jpacman.framework.view.BoardView;
  * @author Arie van Deursen, TU Delft, Jan 14, 2012
  */
 public class MainUI extends JFrame implements Observer, IDisposable {
-	
     /**
      * Universal version ID for serialization.
      */
